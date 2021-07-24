@@ -1,0 +1,142 @@
+<<<<<<< HEAD
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #CCC;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #212121;
+  width: 250px;
+  color: #FFF;
+  padding: 20px;
+  margin: 20px;
+}
+
+.box h3 {
+  text-transform: uppercase;
+  text-align:center;
+}
+
+.box ul {
+  list-style: none;
+}
+
+.box ul li {
+  margin-top: 7px;
+  font-size: 14px;
+}
+
+.select-to-add {
+  background-color: #212121;
+  color: #FFF;
+  border: none;
+  font-size: 14px;  
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 250px;
+  padding: 15px;
+  outline: none;
+  margin: 5px;
+  border-radius: 3.5px;
+}
+
+.add-element input {
+  width: 175px;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.add-element button {
+  width: 75px;
+  padding: 5px 0;
+  cursor: pointer;
+=======
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #CCC;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #212121;
+  width: 250px;
+  color: #FFF;
+  padding: 20px;
+  margin: 20px;
+}
+
+.box h3 {
+  text-transform: uppercase;
+  text-align:center;
+}
+
+.box ul {
+  list-style: none;
+}
+
+.box ul li {
+  margin-top: 7px;
+  font-size: 14px;
+}
+
+.select-to-add {
+  background-color: #212121;
+  color: #FFF;
+  border: none;
+  font-size: 14px;  
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 250px;
+  padding: 15px;
+  outline: none;
+  margin: 5px;
+  border-radius: 3.5px;
+}
+
+.add-element input {
+  width: 175px;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.add-element button {
+  width: 75px;
+  padding: 5px 0;
+  cursor: pointer;
+>>>>>>> 152e4a37f090050291a7ecd995435dd1edd04677
+}
